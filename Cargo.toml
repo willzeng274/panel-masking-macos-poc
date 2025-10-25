@@ -1,0 +1,11 @@
+[package]
+name = "screen_masking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+objc2 = "0.6"
+objc2-app-kit = { version = "0.3", features = ["NSApplication", "NSPanel", "NSWindow", "NSScreen", "NSView", "NSRunningApplication", "NSColor", "NSTextField"] }
+objc2-foundation = { version = "0.3", features = ["NSString", "NSGeometry", "NSArray", "NSTimer", "block2"] }
+objc2-quartz-core = { version = "0.3", features = ["CALayer"] }
+block2 = "0.6"
